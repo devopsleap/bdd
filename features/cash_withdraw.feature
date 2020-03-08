@@ -4,7 +4,7 @@ Feature:Cash Withdraw
   Scenario: Insert a card into ATM machine
     Given a user enters the card into machine
     And machine asks for pin
-    When a user enters 4 digit pin
+    When a user enters 2 digit pin
     Then ATM machine accepts card
     And displays various options
 
