@@ -4,4 +4,4 @@ Feature:Cash Withdraw
   Scenario: Withdraw cash from ATM
     Given ATM machine accepted the debit card
     When user enters the amount to withdarw
-    Then Cash dispenses from machine
+    Then Cash dispenses from ATM machine
